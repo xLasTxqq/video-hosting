@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Philosopher', sans-serif;
+	font-weight: 700;
+	color: darkred;
+	background-color: #19191b;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	/*background-image: url("https://sport-marafon.ru/upload/resize_cache/iblock/f03/1180_1180_1/65393-Chamonix-Mont-Blanc.jpg");*/
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header{
+	margin: 0;
+	width: 100%;
+	height: 5vw;
+	display: flex;
+	background-color: #19900b;
+	/*font-size: 3vw;*/
+	border-bottom: 0.4vw solid darkgreen;
+}
+.header #naming{
+	font-size: 3vw;
+	margin: auto 0;
+	text-align: left;
+	border-right: 0.9vw double #4caf50;
+	padding-right: 1.5vw;
+	cursor: default;
+}
+.header .bibi-youtube{
+	margin: auto 0;
+	width: 7vw;
+	height: 4vw;
+}
+.header #menu{
+	display: flex;
+	font-size: 1.7vw;
+	margin: auto;
+	text-align: center;
+	width: 45vw;
+	justify-content: space-evenly;
+}
+.header #menu .bibi-plus{
+	margin: auto 0;
+	width: 2vw;
+	height: 2vw;
+	padding: auto;
+}
+.header #login{
+	display: flex;
+	text-align: right;
+	margin-right: 0.5vw;
+	align-items: center;
+}
+.header #login #loginin{
+	font-size: 2vw;
+	margin: auto 0;
+	cursor: pointer;
+	padding-right: 0.75vw;
+	border-right: 0.5vh solid #4caf50;
+
+}
+.header #login #registrin{
+	font-size: 2vw;
+	cursor: pointer;
+	margin: auto 0;
+	padding-left: 0.75vw;
+}
+#tonewvideo{
+	display: flex;
+	justify-content: center;
+}
+a{
+	color: white;
+	transition: all .2s ease;
+}
+a:hover{
+	color: grey;
+}
+.header #login #navbarDropdown{
+	font-size: 2vw;
+	/*margin: auto 0;*/
+	cursor: pointer;
+	padding-right: 0.75vw;
+	border-right: 0.5vh solid #4caf50;
+}
+.header #login .dropdown-item{
+	font-size: 2vw;
+	cursor: pointer;
+	/*margin: auto 0;*/
+	padding-left: 0.75vw;
+}
+.header #menu #tomain:hover{
+	color: grey;
+}
+.header #menu #tomain{
+	transition: all .2s ease;
+}
+.header #menu #towatch:hover{
+	color: grey;
+}
+.header #menu #towatch{
+	transition: all .2s ease;
+}
+.header #menu #tomyvideos:hover{
+	color: grey;
+}
+.header #menu #tomyvideos{
+	transition: all .2s ease;
+}
+.header #menu #tonewvideo:hover{
+	color: grey;
+}
+.header #menu #tonewvideo{
+	transition: all .2s ease;
+}

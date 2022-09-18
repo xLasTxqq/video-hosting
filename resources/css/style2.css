@@ -1,0 +1,105 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	background-color: #19191b;
+	font-size: 50pt;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+
+}
+input{
+	width: 20vw;
+	height: 2vw;
+	font-size: 25pt;
+	text-align: center;
+	margin: 1vw;
+}
+input[type="checkbox"]{
+	width: 2vw;
+	height: 2vw;
+	cursor: pointer;
+}
+button{
+	min-width: 10vw;
+	height: 4vw;
+	border-radius: 15px;
+	font-size: 2vw;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+.card-body{
+	display: flex;
+	flex-direction: column;
+	font-size: 2vw;
+}
+.col-md-8{
+	display: flex;
+	flex-direction: column;
+	/*font-size: 3vw;*/
+	align-items: center;
+}
+.form-check{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.con1{
+	font-size: 3vw;
+}
+.card-header{
+	font-size: 4vw;
+	margin: 1vw;
+}
+button:hover{
+	transform: scale(1.1);
+}
+label{
+	cursor: pointer;
+}
+.btn-link{
+	margin: 1vw;
+	color: orange;
+	transition: all .2s ease;
+}
+.btn-link:hover{
+	color: #ffcb6c;
+}
+.nav-link2{
+	color: grey;
+	font-size: 4vw;
+	cursor: default;
+}
+.nav-link{
+	color: blue;
+	font-size: 2.5vw;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+.nav-link:hover{
+	color: lightblue;
+}
+#navbarSupportedContent{
+	margin: 2vw;
+	cursor: default;
+}
+.navbar-brand{
+	color: #19900b;
+	transition: all .2s ease;
+}
+.navbar-brand:hover{
+	color: #24cc11;
+}
+.invalid-feedback{
+	cursor: default;
+	color:  darkred;
+	font-style: italic;
+}

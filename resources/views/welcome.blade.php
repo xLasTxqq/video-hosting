@@ -8,8 +8,8 @@
 
         <!-- Fonts -->
         <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> -->
-        <link rel="stylesheet" type="text/css" href="\resources\css\style.css">
-
+        <!-- <link rel="stylesheet" type="text/css" href="\resources\css\style.css"> -->
+        <link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
     </head>
 
 <div class="header">
@@ -25,7 +25,7 @@
             document.getElementById('myvideospage').style.display='none';
             document.getElementById('newvideopage').style.display='none';">Главная</div>
             <div id="towatch" style="cursor: pointer;  margin: auto 0;"
-            onclick="document.getElementById('mainpage').style.display='none';
+            onclick="document.getElementById('mainpage').style.display='none'; 
             document.getElementById('watchpage').style.display='flex';
             document.getElementById('myvideospage').style.display='none';
             document.getElementById('newvideopage').style.display='none';">Просмотр</div>
@@ -90,6 +90,7 @@
 @extends('myvideospage')
 @extends('newvideopage')
     <div class="main"></div>
-<script type="text/javascript" src="/resources/js/script.js"></script>
+<!-- <script type="text/javascript" src="/resources/js/script.js"></script> -->
+<script type="text/javascript" src="{{asset('/js/script.js')}}"></script>
 </body>
 </html>

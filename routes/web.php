@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\VideoController;
 /*
@@ -12,16 +13,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-})->name('main');
-
-Route::get('/', function () {
-    return view('welcome');
-})->name('main');
-
 Auth::routes();
+Route::get('/', function () { 
+    return view('welcome');
+})->name('main');
+
+Route::get('/', function () {
+    return view('welcome');
+})->name('main');
+
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::post('/Video', [App\Http\Controllers\VideoController::class, 'VideoSubmit']);
